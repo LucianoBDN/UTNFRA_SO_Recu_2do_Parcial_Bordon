@@ -1,0 +1,15 @@
+---
+- hosts: all
+
+  tasks:
+    - include_role:
+        name: 2PRecuperatorio
+
+    - include_role:
+        name: instalar-tools_bordon
+
+          
+    - name: "Otra tarea"
+      debug:
+        msg: "Despues de la ejecucion del rol"
+

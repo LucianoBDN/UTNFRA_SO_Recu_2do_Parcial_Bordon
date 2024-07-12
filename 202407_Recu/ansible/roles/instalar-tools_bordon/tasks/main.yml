@@ -1,0 +1,11 @@
+---
+# tasks file for instalar-tools_bordon
+- name: Instalar htop, tmux, tree y speedtest-cli
+  apt:
+    name: "{{ item }}"
+    state: present
+  with_items:
+    - htop
+    - tmux
+    - tree
+    - speedtest-cli

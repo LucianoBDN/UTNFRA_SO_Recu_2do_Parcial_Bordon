@@ -1,0 +1,224 @@
+2024-07-11 23:36:22,407 p=8125 u=LB n=ansible | ERROR! the playbook: - could not be found
+2024-07-11 23:36:31,911 p=8127 u=LB n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was
+127.0.0.1
+
+2024-07-11 23:36:32,106 p=8127 u=LB n=ansible | PLAY [all] *************************************************************************************
+2024-07-11 23:36:32,117 p=8127 u=LB n=ansible | TASK [Gathering Facts] *************************************************************************
+2024-07-11 23:36:32,271 p=8127 u=LB n=ansible | fatal: [127.0.0.1]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: Warning: Permanently added '127.0.0.1' (ED25519) to the list of known hosts.\r\nLB@127.0.0.1: Permission denied (publickey).", "unreachable": true}
+2024-07-11 23:36:33,249 p=8127 u=LB n=ansible | ok: [localhost]
+2024-07-11 23:36:33,276 p=8127 u=LB n=ansible | TASK [include_role : 2PRecuperatorio] **********************************************************
+2024-07-11 23:36:33,309 p=8127 u=LB n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] **************************************************
+2024-07-11 23:36:33,598 p=8127 u=LB n=ansible | changed: [localhost] => (item=alumno)
+2024-07-11 23:36:33,608 p=8127 u=LB n=ansible | TASK [2PRecuperatorio : Agrego archivo desde template] *****************************************
+2024-07-11 23:36:34,170 p=8127 u=LB n=ansible | changed: [localhost]
+2024-07-11 23:36:34,188 p=8127 u=LB n=ansible | TASK [Otra tarea] ******************************************************************************
+2024-07-11 23:36:34,198 p=8127 u=LB n=ansible | ok: [localhost] => {
+    "msg": "Despues de la ejecucion del rol"
+}
+2024-07-11 23:36:34,233 p=8127 u=LB n=ansible | PLAY RECAP *************************************************************************************
+2024-07-11 23:36:34,234 p=8127 u=LB n=ansible | 127.0.0.1                  : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2024-07-11 23:36:34,234 p=8127 u=LB n=ansible | localhost                  : ok=4    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-07-11 23:37:46,270 p=8310 u=LB n=ansible | - Role instalar-tools_bordon was created successfully
+2024-07-11 23:40:08,375 p=8371 u=LB n=ansible | - Role instalar-tools_bordon was created successfully
+2024-07-11 23:40:35,961 p=8377 u=LB n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was
+127.0.0.1
+
+2024-07-11 23:40:36,102 p=8377 u=LB n=ansible | PLAY [all] *************************************************************************************
+2024-07-11 23:40:36,110 p=8377 u=LB n=ansible | TASK [Gathering Facts] *************************************************************************
+2024-07-11 23:40:36,204 p=8377 u=LB n=ansible | fatal: [127.0.0.1]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: Warning: Permanently added '127.0.0.1' (ED25519) to the list of known hosts.\r\nLB@127.0.0.1: Permission denied (publickey).", "unreachable": true}
+2024-07-11 23:40:37,178 p=8377 u=LB n=ansible | ok: [localhost]
+2024-07-11 23:40:37,204 p=8377 u=LB n=ansible | TASK [include_role : 2PRecuperatorio] **********************************************************
+2024-07-11 23:40:37,236 p=8377 u=LB n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] **************************************************
+2024-07-11 23:40:37,532 p=8377 u=LB n=ansible | changed: [localhost] => (item=alumno)
+2024-07-11 23:40:37,543 p=8377 u=LB n=ansible | TASK [2PRecuperatorio : Agrego archivo desde template] *****************************************
+2024-07-11 23:40:38,002 p=8377 u=LB n=ansible | ok: [localhost]
+2024-07-11 23:40:38,020 p=8377 u=LB n=ansible | TASK [Otra tarea] ******************************************************************************
+2024-07-11 23:40:38,030 p=8377 u=LB n=ansible | ok: [localhost] => {
+    "msg": "Despues de la ejecucion del rol"
+}
+2024-07-11 23:40:38,065 p=8377 u=LB n=ansible | PLAY RECAP *************************************************************************************
+2024-07-11 23:40:38,065 p=8377 u=LB n=ansible | 127.0.0.1                  : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2024-07-11 23:40:38,065 p=8377 u=LB n=ansible | localhost                  : ok=4    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-07-11 23:44:03,514 p=8564 u=LB n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was
+127.0.0.1
+
+2024-07-11 23:44:03,647 p=8564 u=LB n=ansible | PLAY [all] *************************************************************************************
+2024-07-11 23:44:03,655 p=8564 u=LB n=ansible | TASK [Gathering Facts] *************************************************************************
+2024-07-11 23:44:03,752 p=8564 u=LB n=ansible | fatal: [127.0.0.1]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: Warning: Permanently added '127.0.0.1' (ED25519) to the list of known hosts.\r\nLB@127.0.0.1: Permission denied (publickey).", "unreachable": true}
+2024-07-11 23:44:04,713 p=8564 u=LB n=ansible | ok: [localhost]
+2024-07-11 23:44:04,739 p=8564 u=LB n=ansible | TASK [include_role : 2PRecuperatorio] **********************************************************
+2024-07-11 23:44:04,770 p=8564 u=LB n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] **************************************************
+2024-07-11 23:44:05,061 p=8564 u=LB n=ansible | ok: [localhost] => (item=alumno)
+2024-07-11 23:44:05,072 p=8564 u=LB n=ansible | TASK [2PRecuperatorio : Agrego archivo desde template] *****************************************
+2024-07-11 23:44:05,506 p=8564 u=LB n=ansible | ok: [localhost]
+2024-07-11 23:44:05,524 p=8564 u=LB n=ansible | TASK [Otra tarea] ******************************************************************************
+2024-07-11 23:44:05,534 p=8564 u=LB n=ansible | ok: [localhost] => {
+    "msg": "Despues de la ejecucion del rol"
+}
+2024-07-11 23:44:05,569 p=8564 u=LB n=ansible | PLAY RECAP *************************************************************************************
+2024-07-11 23:44:05,569 p=8564 u=LB n=ansible | 127.0.0.1                  : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2024-07-11 23:44:05,569 p=8564 u=LB n=ansible | localhost                  : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-07-11 23:45:08,906 p=8749 u=LB n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was
+127.0.0.1
+
+2024-07-11 23:45:09,039 p=8749 u=LB n=ansible | PLAY [all] *************************************************************************************
+2024-07-11 23:45:09,046 p=8749 u=LB n=ansible | TASK [Gathering Facts] *************************************************************************
+2024-07-11 23:45:09,149 p=8749 u=LB n=ansible | fatal: [127.0.0.1]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: Warning: Permanently added '127.0.0.1' (ED25519) to the list of known hosts.\r\nLB@127.0.0.1: Permission denied (publickey).", "unreachable": true}
+2024-07-11 23:45:10,092 p=8749 u=LB n=ansible | ok: [localhost]
+2024-07-11 23:45:10,120 p=8749 u=LB n=ansible | TASK [include_role : 2PRecuperatorio] **********************************************************
+2024-07-11 23:45:10,153 p=8749 u=LB n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] **************************************************
+2024-07-11 23:45:10,444 p=8749 u=LB n=ansible | ok: [localhost] => (item=alumno)
+2024-07-11 23:45:10,454 p=8749 u=LB n=ansible | TASK [2PRecuperatorio : Agrego archivo desde template] *****************************************
+2024-07-11 23:45:10,890 p=8749 u=LB n=ansible | ok: [localhost]
+2024-07-11 23:45:10,908 p=8749 u=LB n=ansible | TASK [include_role : 2PRecuperatorio] **********************************************************
+2024-07-11 23:45:10,943 p=8749 u=LB n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] **************************************************
+2024-07-11 23:45:11,120 p=8749 u=LB n=ansible | ok: [localhost] => (item=alumno)
+2024-07-11 23:45:11,130 p=8749 u=LB n=ansible | TASK [2PRecuperatorio : Agrego archivo desde template] *****************************************
+2024-07-11 23:45:11,454 p=8749 u=LB n=ansible | ok: [localhost]
+2024-07-11 23:45:11,471 p=8749 u=LB n=ansible | TASK [Otra tarea] ******************************************************************************
+2024-07-11 23:45:11,481 p=8749 u=LB n=ansible | ok: [localhost] => {
+    "msg": "Despues de la ejecucion del rol"
+}
+2024-07-11 23:45:11,514 p=8749 u=LB n=ansible | PLAY RECAP *************************************************************************************
+2024-07-11 23:45:11,514 p=8749 u=LB n=ansible | 127.0.0.1                  : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2024-07-11 23:45:11,514 p=8749 u=LB n=ansible | localhost                  : ok=6    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-07-11 23:46:08,660 p=8992 u=LB n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was
+127.0.0.1
+
+2024-07-11 23:46:08,796 p=8992 u=LB n=ansible | PLAY [all] *************************************************************************************
+2024-07-11 23:46:08,803 p=8992 u=LB n=ansible | TASK [Gathering Facts] *************************************************************************
+2024-07-11 23:46:08,901 p=8992 u=LB n=ansible | fatal: [127.0.0.1]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: Warning: Permanently added '127.0.0.1' (ED25519) to the list of known hosts.\r\nLB@127.0.0.1: Permission denied (publickey).", "unreachable": true}
+2024-07-11 23:46:09,848 p=8992 u=LB n=ansible | ok: [localhost]
+2024-07-11 23:46:09,874 p=8992 u=LB n=ansible | TASK [include_role : 2PRecuperatorio] **********************************************************
+2024-07-11 23:46:09,906 p=8992 u=LB n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] **************************************************
+2024-07-11 23:46:10,221 p=8992 u=LB n=ansible | ok: [localhost] => (item=alumno)
+2024-07-11 23:46:10,232 p=8992 u=LB n=ansible | TASK [2PRecuperatorio : Agrego archivo desde template] *****************************************
+2024-07-11 23:46:10,663 p=8992 u=LB n=ansible | ok: [localhost]
+2024-07-11 23:46:10,681 p=8992 u=LB n=ansible | TASK [include_role : instalar-tools_bordon] ****************************************************
+2024-07-11 23:46:10,715 p=8992 u=LB n=ansible | TASK [instalar-tools_bordon : Instalar htop, script, tmux, tree y speedtest-cli] ***************
+2024-07-11 23:46:11,762 p=8992 u=LB n=ansible | failed: [localhost] (item=htop) => {"ansible_loop_var": "item", "changed": false, "item": "htop", "msg": "'/usr/bin/apt-mark manual htop' failed: E: Could not create temporary file for /var/lib/apt/extended_states - mkstemp (13: Permission denied)\nE: Failed to write temporary StateFile /var/lib/apt/extended_states\n", "rc": 100, "stderr": "E: Could not create temporary file for /var/lib/apt/extended_states - mkstemp (13: Permission denied)\nE: Failed to write temporary StateFile /var/lib/apt/extended_states\n", "stderr_lines": ["E: Could not create temporary file for /var/lib/apt/extended_states - mkstemp (13: Permission denied)", "E: Failed to write temporary StateFile /var/lib/apt/extended_states"], "stdout": "", "stdout_lines": []}
+2024-07-11 23:46:12,363 p=8992 u=LB n=ansible | failed: [localhost] (item=script) => {"ansible_loop_var": "item", "changed": false, "item": "script", "msg": "No package matching 'script' is available"}
+2024-07-11 23:46:13,242 p=8992 u=LB n=ansible | failed: [localhost] (item=tmux) => {"ansible_loop_var": "item", "changed": false, "item": "tmux", "msg": "'/usr/bin/apt-mark manual tmux' failed: E: Could not create temporary file for /var/lib/apt/extended_states - mkstemp (13: Permission denied)\nE: Failed to write temporary StateFile /var/lib/apt/extended_states\n", "rc": 100, "stderr": "E: Could not create temporary file for /var/lib/apt/extended_states - mkstemp (13: Permission denied)\nE: Failed to write temporary StateFile /var/lib/apt/extended_states\n", "stderr_lines": ["E: Could not create temporary file for /var/lib/apt/extended_states - mkstemp (13: Permission denied)", "E: Failed to write temporary StateFile /var/lib/apt/extended_states"], "stdout": "", "stdout_lines": []}
+2024-07-11 23:46:14,130 p=8992 u=LB n=ansible | ok: [localhost] => (item=tree)
+2024-07-11 23:46:15,058 p=8992 u=LB n=ansible | failed: [localhost] (item=speedtest-cli) => {"ansible_loop_var": "item", "cache_update_time": 1720734690, "cache_updated": false, "changed": false, "item": "speedtest-cli", "msg": "'/usr/bin/apt-get -y -o \"Dpkg::Options::=--force-confdef\" -o \"Dpkg::Options::=--force-confold\"       install 'speedtest-cli=2.1.3-2'' failed: E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)\nE: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?\n", "rc": 100, "stderr": "E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)\nE: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?\n", "stderr_lines": ["E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)", "E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?"], "stdout": "", "stdout_lines": []}
+2024-07-11 23:46:15,060 p=8992 u=LB n=ansible | PLAY RECAP *************************************************************************************
+2024-07-11 23:46:15,060 p=8992 u=LB n=ansible | 127.0.0.1                  : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2024-07-11 23:46:15,060 p=8992 u=LB n=ansible | localhost                  : ok=3    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-07-11 23:48:09,219 p=9314 u=LB n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was
+127.0.0.1
+
+2024-07-11 23:48:09,372 p=9314 u=LB n=ansible | PLAY [all] *************************************************************************************
+2024-07-11 23:48:09,380 p=9314 u=LB n=ansible | TASK [Gathering Facts] *************************************************************************
+2024-07-11 23:48:09,480 p=9314 u=LB n=ansible | fatal: [127.0.0.1]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: Warning: Permanently added '127.0.0.1' (ED25519) to the list of known hosts.\r\nLB@127.0.0.1: Permission denied (publickey).", "unreachable": true}
+2024-07-11 23:48:10,509 p=9314 u=LB n=ansible | ok: [localhost]
+2024-07-11 23:48:10,538 p=9314 u=LB n=ansible | TASK [include_role : 2PRecuperatorio] **********************************************************
+2024-07-11 23:48:10,573 p=9314 u=LB n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] **************************************************
+2024-07-11 23:48:10,892 p=9314 u=LB n=ansible | ok: [localhost] => (item=alumno)
+2024-07-11 23:48:10,903 p=9314 u=LB n=ansible | TASK [2PRecuperatorio : Agrego archivo desde template] *****************************************
+2024-07-11 23:48:11,376 p=9314 u=LB n=ansible | ok: [localhost]
+2024-07-11 23:48:11,393 p=9314 u=LB n=ansible | TASK [include_role : instalar-tools_bordon] ****************************************************
+2024-07-11 23:48:11,416 p=9314 u=LB n=ansible | ERROR! conflicting action statements: hosts, tasks
+
+The error appears to be in '/home/LB/UTN-FRA_SO_Examenes/202407_Recu/ansible/roles/instalar-tools_bordon/tasks/main.yml': line 4, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+- name: Actualizar lista de paquetes e instalar herramientas
+  ^ here
+
+2024-07-11 23:49:52,544 p=9491 u=LB n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was
+127.0.0.1
+
+2024-07-11 23:49:52,686 p=9491 u=LB n=ansible | PLAY [all] *************************************************************************************
+2024-07-11 23:49:52,694 p=9491 u=LB n=ansible | TASK [Gathering Facts] *************************************************************************
+2024-07-11 23:49:52,845 p=9491 u=LB n=ansible | fatal: [127.0.0.1]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: Warning: Permanently added '127.0.0.1' (ED25519) to the list of known hosts.\r\nLB@127.0.0.1: Permission denied (publickey).", "unreachable": true}
+2024-07-11 23:49:54,768 p=9491 u=LB n=ansible | ok: [localhost]
+2024-07-11 23:49:54,796 p=9491 u=LB n=ansible | TASK [include_role : 2PRecuperatorio] **********************************************************
+2024-07-11 23:49:54,829 p=9491 u=LB n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] **************************************************
+2024-07-11 23:49:55,121 p=9491 u=LB n=ansible | ok: [localhost] => (item=alumno)
+2024-07-11 23:49:55,131 p=9491 u=LB n=ansible | TASK [2PRecuperatorio : Agrego archivo desde template] *****************************************
+2024-07-11 23:49:55,576 p=9491 u=LB n=ansible | ok: [localhost]
+2024-07-11 23:49:55,593 p=9491 u=LB n=ansible | TASK [include_role : instalar-tools_bordon] ****************************************************
+2024-07-11 23:49:55,628 p=9491 u=LB n=ansible | TASK [instalar-tools_bordon : Instalar htop, script, tmux, tree y speedtest-cli] ***************
+2024-07-11 23:49:56,678 p=9491 u=LB n=ansible | failed: [localhost] (item=htop) => {"ansible_loop_var": "item", "changed": false, "item": "htop", "msg": "'/usr/bin/apt-mark manual htop' failed: E: Could not create temporary file for /var/lib/apt/extended_states - mkstemp (13: Permission denied)\nE: Failed to write temporary StateFile /var/lib/apt/extended_states\n", "rc": 100, "stderr": "E: Could not create temporary file for /var/lib/apt/extended_states - mkstemp (13: Permission denied)\nE: Failed to write temporary StateFile /var/lib/apt/extended_states\n", "stderr_lines": ["E: Could not create temporary file for /var/lib/apt/extended_states - mkstemp (13: Permission denied)", "E: Failed to write temporary StateFile /var/lib/apt/extended_states"], "stdout": "", "stdout_lines": []}
+2024-07-11 23:49:57,288 p=9491 u=LB n=ansible | failed: [localhost] (item=script) => {"ansible_loop_var": "item", "changed": false, "item": "script", "msg": "No package matching 'script' is available"}
+2024-07-11 23:49:58,220 p=9491 u=LB n=ansible | failed: [localhost] (item=tmux) => {"ansible_loop_var": "item", "changed": false, "item": "tmux", "msg": "'/usr/bin/apt-mark manual tmux' failed: E: Could not create temporary file for /var/lib/apt/extended_states - mkstemp (13: Permission denied)\nE: Failed to write temporary StateFile /var/lib/apt/extended_states\n", "rc": 100, "stderr": "E: Could not create temporary file for /var/lib/apt/extended_states - mkstemp (13: Permission denied)\nE: Failed to write temporary StateFile /var/lib/apt/extended_states\n", "stderr_lines": ["E: Could not create temporary file for /var/lib/apt/extended_states - mkstemp (13: Permission denied)", "E: Failed to write temporary StateFile /var/lib/apt/extended_states"], "stdout": "", "stdout_lines": []}
+2024-07-11 23:49:59,126 p=9491 u=LB n=ansible | ok: [localhost] => (item=tree)
+2024-07-11 23:50:00,076 p=9491 u=LB n=ansible | failed: [localhost] (item=speedtest-cli) => {"ansible_loop_var": "item", "cache_update_time": 1720734690, "cache_updated": false, "changed": false, "item": "speedtest-cli", "msg": "'/usr/bin/apt-get -y -o \"Dpkg::Options::=--force-confdef\" -o \"Dpkg::Options::=--force-confold\"       install 'speedtest-cli=2.1.3-2'' failed: E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)\nE: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?\n", "rc": 100, "stderr": "E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)\nE: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?\n", "stderr_lines": ["E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)", "E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?"], "stdout": "", "stdout_lines": []}
+2024-07-11 23:50:00,078 p=9491 u=LB n=ansible | PLAY RECAP *************************************************************************************
+2024-07-11 23:50:00,078 p=9491 u=LB n=ansible | 127.0.0.1                  : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2024-07-11 23:50:00,078 p=9491 u=LB n=ansible | localhost                  : ok=3    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-07-11 23:50:03,832 p=9813 u=root n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was
+127.0.0.1
+
+2024-07-11 23:50:03,968 p=9813 u=root n=ansible | PLAY [all] *************************************************************************************
+2024-07-11 23:50:03,976 p=9813 u=root n=ansible | TASK [Gathering Facts] *************************************************************************
+2024-07-11 23:50:04,071 p=9813 u=root n=ansible | fatal: [127.0.0.1]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: Warning: Permanently added '127.0.0.1' (ED25519) to the list of known hosts.\r\nroot@127.0.0.1: Permission denied (publickey).", "unreachable": true}
+2024-07-11 23:50:05,176 p=9813 u=root n=ansible | ok: [localhost]
+2024-07-11 23:50:05,203 p=9813 u=root n=ansible | TASK [include_role : 2PRecuperatorio] **********************************************************
+2024-07-11 23:50:05,236 p=9813 u=root n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] **************************************************
+2024-07-11 23:50:05,535 p=9813 u=root n=ansible | ok: [localhost] => (item=alumno)
+2024-07-11 23:50:05,545 p=9813 u=root n=ansible | TASK [2PRecuperatorio : Agrego archivo desde template] *****************************************
+2024-07-11 23:50:05,986 p=9813 u=root n=ansible | ok: [localhost]
+2024-07-11 23:50:06,004 p=9813 u=root n=ansible | TASK [include_role : instalar-tools_bordon] ****************************************************
+2024-07-11 23:50:06,039 p=9813 u=root n=ansible | TASK [instalar-tools_bordon : Instalar htop, script, tmux, tree y speedtest-cli] ***************
+2024-07-11 23:50:07,108 p=9813 u=root n=ansible | ok: [localhost] => (item=htop)
+2024-07-11 23:50:07,711 p=9813 u=root n=ansible | failed: [localhost] (item=script) => {"ansible_loop_var": "item", "changed": false, "item": "script", "msg": "No package matching 'script' is available"}
+2024-07-11 23:50:08,614 p=9813 u=root n=ansible | ok: [localhost] => (item=tmux)
+2024-07-11 23:50:09,526 p=9813 u=root n=ansible | ok: [localhost] => (item=tree)
+2024-07-11 23:50:14,767 p=9813 u=root n=ansible | changed: [localhost] => (item=speedtest-cli)
+2024-07-11 23:50:14,770 p=9813 u=root n=ansible | PLAY RECAP *************************************************************************************
+2024-07-11 23:50:14,770 p=9813 u=root n=ansible | 127.0.0.1                  : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2024-07-11 23:50:14,770 p=9813 u=root n=ansible | localhost                  : ok=3    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-07-11 23:52:50,218 p=10255 u=root n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was
+127.0.0.1
+
+2024-07-11 23:52:50,368 p=10255 u=root n=ansible | PLAY [all] *************************************************************************************
+2024-07-11 23:52:50,376 p=10255 u=root n=ansible | TASK [Gathering Facts] *************************************************************************
+2024-07-11 23:52:50,474 p=10255 u=root n=ansible | fatal: [127.0.0.1]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: Warning: Permanently added '127.0.0.1' (ED25519) to the list of known hosts.\r\nroot@127.0.0.1: Permission denied (publickey).", "unreachable": true}
+2024-07-11 23:52:51,705 p=10255 u=root n=ansible | ok: [localhost]
+2024-07-11 23:52:51,733 p=10255 u=root n=ansible | TASK [include_role : 2PRecuperatorio] **********************************************************
+2024-07-11 23:52:51,774 p=10255 u=root n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] **************************************************
+2024-07-11 23:52:52,089 p=10255 u=root n=ansible | ok: [localhost] => (item=alumno)
+2024-07-11 23:52:52,101 p=10255 u=root n=ansible | TASK [2PRecuperatorio : Agrego archivo desde template] *****************************************
+2024-07-11 23:52:52,575 p=10255 u=root n=ansible | ok: [localhost]
+2024-07-11 23:52:52,596 p=10255 u=root n=ansible | TASK [include_role : instalar-tools_bordon] ****************************************************
+2024-07-11 23:52:52,633 p=10255 u=root n=ansible | TASK [instalar-tools_bordon : Instalar htop, tmux, tree y speedtest-cli] ***********************
+2024-07-11 23:52:53,758 p=10255 u=root n=ansible | ok: [localhost] => (item=htop)
+2024-07-11 23:52:54,719 p=10255 u=root n=ansible | ok: [localhost] => (item=tmux)
+2024-07-11 23:52:55,645 p=10255 u=root n=ansible | ok: [localhost] => (item=tree)
+2024-07-11 23:52:56,588 p=10255 u=root n=ansible | ok: [localhost] => (item=speedtest-cli)
+2024-07-11 23:52:56,608 p=10255 u=root n=ansible | TASK [Otra tarea] ******************************************************************************
+2024-07-11 23:52:56,621 p=10255 u=root n=ansible | ok: [localhost] => {
+    "msg": "Despues de la ejecucion del rol"
+}
+2024-07-11 23:52:56,656 p=10255 u=root n=ansible | PLAY RECAP *************************************************************************************
+2024-07-11 23:52:56,656 p=10255 u=root n=ansible | 127.0.0.1                  : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2024-07-11 23:52:56,657 p=10255 u=root n=ansible | localhost                  : ok=5    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-07-11 23:53:05,628 p=10555 u=root n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was
+127.0.0.1
+
+2024-07-11 23:53:05,775 p=10555 u=root n=ansible | PLAY [all] *************************************************************************************
+2024-07-11 23:53:05,784 p=10555 u=root n=ansible | TASK [Gathering Facts] *************************************************************************
+2024-07-11 23:53:05,884 p=10555 u=root n=ansible | fatal: [127.0.0.1]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: Warning: Permanently added '127.0.0.1' (ED25519) to the list of known hosts.\r\nroot@127.0.0.1: Permission denied (publickey).", "unreachable": true}
+2024-07-11 23:53:07,036 p=10555 u=root n=ansible | ok: [localhost]
+2024-07-11 23:53:07,064 p=10555 u=root n=ansible | TASK [include_role : 2PRecuperatorio] **********************************************************
+2024-07-11 23:53:07,098 p=10555 u=root n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] **************************************************
+2024-07-11 23:53:07,407 p=10555 u=root n=ansible | ok: [localhost] => (item=alumno)
+2024-07-11 23:53:07,419 p=10555 u=root n=ansible | TASK [2PRecuperatorio : Agrego archivo desde template] *****************************************
+2024-07-11 23:53:07,887 p=10555 u=root n=ansible | ok: [localhost]
+2024-07-11 23:53:07,906 p=10555 u=root n=ansible | TASK [include_role : instalar-tools_bordon] ****************************************************
+2024-07-11 23:53:07,942 p=10555 u=root n=ansible | TASK [instalar-tools_bordon : Instalar htop, tmux, tree y speedtest-cli] ***********************
+2024-07-11 23:53:09,048 p=10555 u=root n=ansible | ok: [localhost] => (item=htop)
+2024-07-11 23:53:09,984 p=10555 u=root n=ansible | ok: [localhost] => (item=tmux)
+2024-07-11 23:53:10,914 p=10555 u=root n=ansible | ok: [localhost] => (item=tree)
+2024-07-11 23:53:11,823 p=10555 u=root n=ansible | ok: [localhost] => (item=speedtest-cli)
+2024-07-11 23:53:11,843 p=10555 u=root n=ansible | TASK [Otra tarea] ******************************************************************************
+2024-07-11 23:53:11,854 p=10555 u=root n=ansible | ok: [localhost] => {
+    "msg": "Despues de la ejecucion del rol"
+}
+2024-07-11 23:53:11,891 p=10555 u=root n=ansible | PLAY RECAP *************************************************************************************
+2024-07-11 23:53:11,892 p=10555 u=root n=ansible | 127.0.0.1                  : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2024-07-11 23:53:11,892 p=10555 u=root n=ansible | localhost                  : ok=5    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   

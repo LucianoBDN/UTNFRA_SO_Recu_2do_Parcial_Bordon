@@ -1,0 +1,11 @@
+#template datos de alumno y pc
+
+nombre: Luciano Ezequiel Apellido: Bordón
+
+division: 311
+
+Fecha: {{ ansible_date_time.date }}
+
+-----------------------------------------
+distribucion: {{ ansible_facts.distribution }}
+Cantidad de cores: {{ ansible_facts.processor_nproc }}
